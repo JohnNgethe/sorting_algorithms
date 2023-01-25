@@ -10,7 +10,7 @@ Prototype: void bubble_sort(int *array, size_t size);
 You’re expected to print the array after each time you swap two elements (See example below)
 Write in the file 0-O, the big O notations of the time complexity of the Bubble sort algorithm, with 1 notation per line:
 
-in the best case
+
 in the average case
 in the worst case
 alex@/tmp/sort$ cat 0-main.c 
@@ -19,7 +19,7 @@ alex@/tmp/sort$ cat 0-main.c
 #include "sort.h"
 
 /**
- * main - Entry point
+
  *
  * Return: Always 0
  */
@@ -37,7 +37,7 @@ int main(void)
 }
 alex@/tmp/sort$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 0-bubble_sort.c 0-main.c print_array.c -o bubble
 alex@/tmp/sort$ ./bubble
-19, 48, 99, 71, 13, 52, 96, 73, 86, 7
+
 
 19, 48, 71, 99, 13, 52, 96, 73, 86, 7
 19, 48, 71, 13, 99, 52, 96, 73, 86, 7
